@@ -1,62 +1,72 @@
-/* Events.css */
-
-/* Main Container */
-.events {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+/* General Styling */
+body {
+    background-color: #F6F0F0;
+    padding-top: 80px; /* Adjust according to header height */
     text-align: center;
-  }
-  
-  /* Page Title */
-  h2 {
+}
+
+/* Page Title */
+h2 {
     font-size: 2rem;
     color: #333;
     margin-bottom: 20px;
     font-weight: bold;
-  }
-  
-  /* Filter Section */
-  label {
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+
+/* Filter Section */
+label {
     font-size: 1.2rem;
     font-weight: bold;
     color: #444;
     display: block;
     margin-bottom: 10px;
-  }
-  
-  select {
+}
+
+select {
     padding: 10px 15px;
     font-size: 1rem;
-    border: 2px solid #007bff;
+    border: 2px solid #F2E2B1;
     border-radius: 6px;
     cursor: pointer;
     background: white;
     transition: all 0.3s ease-in-out;
-  }
-  
-  select:hover,
-  select:focus {
-    border-color: #0056b3;
+}
+
+select:hover,
+select:focus {
+    border-color: #F2E2B1;
     outline: none;
-  }
-  
-  /* Event List */
-  .event-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+/* Event List */
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
     margin-top: 20px;
     padding: 10px;
-  }
-  
-  /* Add Event Section */
-  h3 {
+}
+
+/* Event Card */
+.event-card {
+    background: #F2E2B1;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+/* Add Event Section */
+h3 {
     font-size: 1.5rem;
     color: #333;
     margin-top: 30px;
-  }
-  
+}

@@ -1,0 +1,45 @@
+/* Header.css */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #BDB395;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;  /* Adjusted padding */
+    height: 60px;  /* Set a fixed height */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 70px;
+    
+  }
+  .links{
+    padding: 5px 8px;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+  
+  nav {
+    display: flex;
+  gap: 10px; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ffdd57;
+  }
+  
+ 

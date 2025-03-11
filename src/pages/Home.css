@@ -1,4 +1,7 @@
 /* Home.css */
+.text-4xl{
+    padding-top: 80px;;
+}
 
 /* Main Container */
 .flex {
@@ -22,7 +25,7 @@
   }
   
   .bg-gray-100 {
-    background-color: #f7f7f7;
+    background-color:#F6F0F0;
   }
   
   .p-6 {
@@ -97,7 +100,7 @@
   
   /* Button */
   .bg-blue-600 {
-    background-color: #007bff;
+    background-color: #D5C7A3;
   }
   
   .text-white {
@@ -124,7 +127,7 @@
   }
   
   .hover\:bg-blue-700:hover {
-    background-color: #0056b3;
+    background-color: #e6c779;
   }
   
   .transition-all {
