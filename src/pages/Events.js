@@ -1,6 +1,7 @@
 import { useState } from "react";
 import EventCard from "../components/EventCard";
 import EventForm from "../components/EventForm";
+import "./Events.css";
 
 const dummyEvents = [
   { id: 1, title: "Charity Drive", date: "2025-03-12", category: "Charity", location: "New York", description: "Helping the homeless community." },
