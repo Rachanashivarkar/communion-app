@@ -1,19 +1,14 @@
-/* General Styles */
+
 body {
     font-family: 'Arial', sans-serif;
-    /*background: #FFCDB2;*/
+    
     color: #6D3A3A;
     margin: 0;
     padding: 0;
 }
 
-/* Header */
-header {
-    background: #FFB4A2;
-    padding: 15px 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+
+
 
 header h1 {
     margin: 0;
@@ -40,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #f0cd65;
+    background: #7ab0ee;
     color: white;
 }
 
@@ -72,16 +67,7 @@ nav a:hover {
 /* Filter Section */
 
 
-.filter-container select {
-    padding: 8px;
-    font-size: 16px;
-    border: 2px solid #6D3A3A;
-    border-radius: 5px;
-    background: white;
-    color: #6D3A3A;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
+
 
 .filter-container select:hover {
     background: #FFCDB2;
@@ -139,7 +125,7 @@ nav a:hover {
 
 /* Event Form */
 .event-form {
-    background: #F2E2B1;
+    background: #fff;
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
@@ -153,13 +139,13 @@ nav a:hover {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #D5C7A3;
+    border: 1px solid #4A90E2;
     border-radius: 5px;
     font-size: 16px;
 }
 
 .event-form button {
-    background: #D5C7A3;
+    background: #4A90E2;
     color: white;
     font-size: 18px;
     border: none;
@@ -168,7 +154,7 @@ nav a:hover {
 }
 
 .event-form button:hover {
-    background: #e6c779;
+    background: #3d94f8;
 }
 
 

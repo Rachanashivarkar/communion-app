@@ -2,9 +2,9 @@
     max-width: 900px;
     margin: 80px auto 50px; /* Added margin-top to prevent overlap with header */
     padding: 30px;
-    background: white;
+
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   
     text-align: center;
 }
 
@@ -81,7 +81,7 @@ li::before {
     font-size: 1.1rem;
     font-weight: bold;
     color: white;
-    background: #D5C7A3;
+    background: #4A90E2;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -90,7 +90,7 @@ li::before {
 }
 
 .join-btn:hover {
-    background: #e6c779;
+    background: #338df4;
     transform: scale(1.05);
 }
 

@@ -1,11 +1,11 @@
-/* General Styling */
+
 body {
     background-color: #F6F0F0;
-    padding-top: 80px; /* Adjust according to header height */
+    padding-top: 80px; 
     text-align: center;
 }
 
-/* Page Title */
+
 h2 {
     font-size: 2rem;
     color: #333;
@@ -27,7 +27,7 @@ label {
 select {
     padding: 10px 15px;
     font-size: 1rem;
-    border: 2px solid #F2E2B1;
+    border: 2px solid #4A90E2;
     border-radius: 6px;
     cursor: pointer;
     background: white;
@@ -36,11 +36,11 @@ select {
 
 select:hover,
 select:focus {
-    border-color: #F2E2B1;
+    border-color: #74b4fd;
     outline: none;
 }
 
-/* Event List */
+
 .event-list {
     display: flex;
     flex-wrap: wrap;
@@ -50,9 +50,9 @@ select:focus {
     padding: 10px;
 }
 
-/* Event Card */
+
 .event-card {
-    background: #F2E2B1;
+    background: #fff;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -64,7 +64,7 @@ select:focus {
     transform: scale(1.05);
 }
 
-/* Add Event Section */
+
 h3 {
     font-size: 1.5rem;
     color: #333;
