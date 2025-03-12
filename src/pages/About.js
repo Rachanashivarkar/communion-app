@@ -6,7 +6,7 @@ const About = () => {
     <div className="about-container">
       <h1>About Us</h1>
       <p className="intro">
-        Welcome to <span className="highlight">Faith Connect</span>, a platform dedicated to 
+        Welcome to Faith Connect, a platform dedicated to 
         bringing people together through shared values, spirituality, and meaningful experiences.
       </p>
 
@@ -36,7 +36,7 @@ const About = () => {
         <p>
           Whether you’re looking for spiritual guidance, a space to share 
           your beliefs, or simply a way to connect with others, 
-          <span className="highlight"> Faith Connect</span> is here for you.
+           Faith Connect is here for you.
         </p>
         <button className="join-btn">Get Involved</button>
       </div>

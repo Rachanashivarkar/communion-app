@@ -2,7 +2,6 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
-
 const Home = () => {
   const navigate = useNavigate();
 
@@ -22,9 +21,9 @@ const Home = () => {
 
       {/* Images Section */}
       <div className="flex flex-wrap justify-center gap-6 mb-6">
-      <img src="/image1.jpg" alt="Community Gathering" className="w-72 h-80 rounded-3xl object-cover shadow-lg" />
-<img src="/image2.jpg" alt="Spiritual Event" className="w-72 h-80 rounded-3xl object-cover shadow-lg" />
-<img src="/image3.jpg" alt="People Connecting" className="w-72 h-80 rounded-3xl object-cover shadow-lg" />
+        <img src="/image1.jpg" alt="Community Gathering" className="w-72 h-80 rounded-3xl object-cover shadow-lg" />
+        <img src="/image2.jpg" alt="Spiritual Event" className="w-72 h-80 rounded-3xl object-cover shadow-lg" />
+        <img src="/image3.jpg" alt="People Connecting" className="w-72 h-80 rounded-3xl object-cover shadow-lg" />
       </div>
 
       {/* Call-to-Action Button */}
@@ -34,7 +33,30 @@ const Home = () => {
       >
         Explore Events →
       </button>
-    </div>
+
+      {/* Why Communion Rocks! */}
+      {/* Why Communion Rocks! */}
+      <div className="features-section">
+        <div className="feature-card">
+          <img src="/unifying.jpg" alt="Unifying Communities" />
+          <h3>Unifying Communities</h3>
+          <p>Bridging diverse religious communities to create meaningful connections.</p>
+        </div>
+
+        <div className="feature-card">
+          <img src="/fun.jpeg" alt="Innovative & Fun" />
+          <h3>Innovative & Fun</h3>
+          <p>Experience faith in a fresh, modern, and engaging way.</p>
+        </div>
+
+        <div className="feature-card">
+          <img src="/unity.jpg" alt="Promoting Unity" />
+          <h3>Promoting Unity</h3>
+          <p>Encouraging understanding and harmony through shared experiences.</p>
+        </div>
+      </div>
+</div>
+
   );
 };
 

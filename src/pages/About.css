@@ -1,26 +1,32 @@
-/* General Styling */
-body {
-    background-color: #F6F0F0;
-    padding-top: 80px; /* Adjust according to header height */
+.about-container {
+    max-width: 900px;
+    margin: 80px auto 50px; /* Added margin-top to prevent overlap with header */
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    font-family: Arial, sans-serif;
 }
 
-/* Page Title */
+/* Headings */
 h1 {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 15px;
-    padding-top: 80px;
 }
 
-/* Introduction Section */
+h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Intro Text */
 .intro {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #555;
     margin-bottom: 30px;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 /* Highlighted Text */
@@ -31,34 +37,22 @@ h1 {
 
 /* About Sections */
 .about-section {
-    margin: 30px auto;
-    max-width: 800px;
     background: white;
     padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
-.about-section:hover {
-    transform: scale(1.02);
-}
-
-/* Subheadings */
-h2 {
-    font-size: 1.8rem;
-    color: #444;
-    margin-bottom: 10px;
-}
-
-/* Paragraphs */
+/* Paragraph Styling */
 p {
     font-size: 1.1rem;
     color: #666;
     line-height: 1.6;
 }
 
-/* List Items */
+/* List Styling */
 ul {
     list-style: none;
     padding: 0;
@@ -68,22 +62,42 @@ li {
     font-size: 1.1rem;
     color: #444;
     margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Add Bullet Point Icons */
+li::before {
+    content: "✔"; /* Checkmark icon */
+    color: #007bff;
+    font-size: 1.2rem;
+    margin-right: 8px;
 }
 
 /* Join Button */
 .join-btn {
+    display: inline-block;
     padding: 12px 24px;
     font-size: 1.1rem;
+    font-weight: bold;
     color: white;
-    background: #007bff;
+    background: #D5C7A3;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     transition: background 0.3s, transform 0.2s;
-    margin-top: 20px;
+    text-transform: uppercase;
 }
 
 .join-btn:hover {
-    background: #0056b3;
+    background: #e6c779;
     transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-container {
+        max-width: 95%;
+        padding: 20px;
+    }
 }

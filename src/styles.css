@@ -21,7 +21,7 @@ header h1 {
     color: white;
 }
 
-/* Navigation */
+
 nav {
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@ nav a:hover {
     color: white;
 }
 
-/* Hero Section */
+
 .hero {
     text-align: center;
     padding: 60px 20px;
@@ -61,25 +61,9 @@ nav a:hover {
     color: #8B5E5E;
 }
 
-.hero p {
-    font-size: 1.2em;
-    color: #6D3A3A;
-    max-width: 600px;
-    margin: 0 auto 20px;
-}
 
-/* CTA Button */
-.cta-button {
-    background-color: #a96e7a;
-    color: white;
-    font-size: 18px;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.3s ease, background 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
+
+
 
 .cta-button:hover {
     background-color: #b85c6e;
@@ -187,12 +171,5 @@ nav a:hover {
     background: #e6c779;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 15px;
-    background: #FFB4A2;
-    color: white;
-    margin-top: 20px;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
-}
+
+

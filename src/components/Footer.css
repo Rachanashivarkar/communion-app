@@ -1,7 +1,7 @@
 /* Footer.css */
 .footer {
-    background-color: #BDB395;
-    color: black;
+    background-color: #2C3E50;
+    color: #FFFFFF;
     padding: 30px 20px;
     text-align: center;
   }
@@ -13,6 +13,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 20px;
+    color: #FFFFFF;
   }
   
   .footer-section {
@@ -20,9 +21,10 @@
     min-width: 250px;
     margin: 10px;
     text-align: left;
+    color: #FFFFFF;
   }
   .footer-section contact{
-  color: black;
+  color: #FFFFFF;
   }
   
   .footer-section h3 {
@@ -47,7 +49,7 @@
   
   .footer-section ul li a {
     text-decoration: none;
-    color: black;
+    
     transition: color 0.3s;
   }
   
@@ -60,4 +62,10 @@
     border-top: 1px solid white;
     padding-top: 10px;
   }
-  
+  .footer-section h3,
+  .footer-section p,
+  .footer-section ul,
+  .footer-section li,
+  .footer-section a {
+    color: white; 
+  }
